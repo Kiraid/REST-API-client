@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/1
+Content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inpvcm9Aem9yby5jb20iLCJleHAiOjE3MjA5Njk3MTIsInVzZXJJZCI6MX0.y6v_vFneuRH5-bzrJQt6beI3MlmgKrBl82aRKMo4cYo
+
+{
+    "name" : "zoro",
+    "description": "moshsi vent", 
+    "location" : "A test location",
+    "datetime" : "2021-01-01T15:30:00.000Z"
+}
